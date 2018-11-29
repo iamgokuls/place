@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Placement Managment System</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="/static/css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="/static/css/style.css" rel="stylesheet">
+
+
+  <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">P.M.S</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto smooth-scroll">
+          <li class="nav-item">
+              <a class="nav-link" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#Announcements">Announcemenets</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#History">History</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+          </li>
+      </ul>
+      <!-- Links -->
+
+      
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+</head>
+
+<body>
+  <!--Main Navigation-->
+<header>
+
+  <!--Mask-->
+
+<!--Mask-->
+<div id="intro" class="view">
+
+    <div class="mask rgba-black-strong">
+        
+
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                <div class="row">
+                <div class="col-md-11">
+            <div class="row d-flex justify-content-center text-center">
+
+                <div class="col-lg-12">
+                    &nbsp;
+                    <!-- Heading -->
+                    <h2 class="display-4 font-weight-bold white-text pt-5 mb-2">Placement Managment System</h2>
+
+                    <!-- Divider -->
+                    <hr class="hr-light">
+
+                    <!-- Description -->
+                    <h4 class="white-text my-4">Place where we try to make students close to the recruiters</h4>
+                    <button type="button" class="btn btn-outline-white">More About Us<i class="fa fa-book ml-2"></i></button>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="col-md-4">
+         
+          <!-- Material form login -->
+<div class="card">
+
+        <h5 class="card-header blue-gradient white-text text-center py-4">
+          <strong>Log in</strong>
+        </h5>
+      
+        <!--Card content-->
+        <div class="card-body px-lg-5 pt-0">
+      
+          <!-- Form -->
+          <form class="text-center" method="POST"  style="color: #757575;" >
+
+          {% csrf_token %}
+
+            <!-- Radio -->
+{#            <div class="md-form">#}
+                <!-- Material inline 1 -->
+                <!-- Default inline 1-->
+                        <br>
+                        <div class="custom-control custom-radio custom-control-inline" style="margin-right: 20px">
+                          <input type="radio" class="custom-control-input" id="student" value="1" name="type">
+                          <label class="custom-control-label" for="student">student</label>
+                        </div>
+                        
+
+                        <!-- Default inline 2-->
+                        <div class="custom-control custom-radio custom-control-inline">
+                          <input type="radio" class="custom-control-input" value="2" id="company" name="type">
+                          <label class="custom-control-label" for="company">company</label>
+                        </div>
+
+
+
+{#            </div>#}
+      
+            <!-- Email -->
+            <div class="md-form">
+              <input type="text" id="username" name="username" class="form-control">
+              <label for="username">Username</label>
+            </div>
+      
+            <!-- Password -->
+            <div class="md-form">
+              <input type="password" id="password" name="password" class="form-control">
+              <label for="materialLoginFormPassword">Password</label>
+            </div>
+      
+            <div class="d-flex justify-content-around">
+              <div>
+                <!-- Remember me -->
+                <div class="form-check">
+                  <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
+                  <label class="form-check-label" for="materialLoginFormRemember">Remember me</label>
+                </div>
+              </div>
+              <div>
+                <!-- Forgot password -->
+                <a href="">Forgot password?</a>
+              </div>
+            </div>
+      
+            <!-- Sign in button -->
+            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" style="color:#000080">Sign in</button>
+      
+            
+      
+           
+      
+          </form>
+          <!-- Form -->
+      
+        </div>
+      
+      </div>
+      <!-- Material form login -->
+                   <!--Section: login-->
+    </div>
+    </div>
+
+    </div>
+
+</div>
+<!--/.Mask-->
+
+<!--/.Mask-->
+  </header>
+  <!--Main Navigation-->
+  
+  <!--Main layout-->
+  <main>
+<!--Main layout-->
+<main class="mt-5">
+    <div class="container">
+
+       <!--Section: Announcements-->
+       <section id="Announcements" class="text-center">
+
+        <!-- Heading -->
+        <h2 class="mb-5 font-weight-bold">Announcements</h2>
+      
+       
+      
+        <!--Grid row-->
+       
+    
+        <!--Grid row-->
+        <div class="row">
+            <div class="col-md-4">
+            <!-- Card Wider -->
+    <div class="card card-cascade wider">
+    
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img  class="card-img-top" src="http://placement.gectcr.ac.in/static/gecp/images/recruiter/oracle-min.png" alt="Card image cap">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade text-center">
+      
+          <!-- Title -->
+          <h4 class="card-title"><strong>Company 1</strong></h4>
+          <!-- Subtitle -->
+          <h5 class="blue-text pb-2"><strong>Subtitle</strong></h5>
+          <!-- Text -->
+          <p class="card-text">Filled by company1 later </p>
+      
+          
+      
+        </div>
+      
+      </div>
+    </div>
+      <!-- Card Wider -->
+      <div class="col-md-4">
+      <!-- Card Narrower -->
+      <div class="card card-cascade narrower">
+      
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img  class="card-img-top" src="http://placement.gectcr.ac.in/static/gecp/images/recruiter/yahoo-min.png" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade">
+      
+         
+          <!-- Title -->
+          <h4 class="font-weight-bold card-title">Company 2</h4>
+          <!-- Subtitle -->
+          <h5 class="blue-text pb-2"><strong>Subtitle</strong></h5>
+          <!-- Text -->
+          <p class="card-text">Content fill be filled by the company later</p>
+          
+      
+        </div>
+      
+      </div>
+    </div>
+      <!-- Card Narrower -->
+      <div class="col-md-4">
+      <!-- Card Regular -->
+      <div class="card card-cascade">
+      
+        <!-- Card image -->
+        <div class="view view-cascade overlay">
+          <img class="card-img-top" src="http://placement.gectcr.ac.in/static/gecp/images/recruiter/huawei-min.png" alt="Card image cap">
+          <a>
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      
+        <!-- Card content -->
+        <div class="card-body card-body-cascade text-center">
+      
+          <!-- Title -->
+          <h4 class="card-title"><strong>Company 3</strong></h4>
+          <!-- Subtitle -->
+          <h6 class="blue-text pb-2">Subtitle</h6>
+          <!-- Text -->
+          <p class="card-text">Its just a trail.Announcement wil be made later
+          </p>
+      
+          
+        </div>
+      
+      </div>
+    </div>
+      <!-- Card Regular -->
+        </div>
+      </section>
+      <!--Section: Announcements-->
+  <!--Section: Login-->
+ 
+
+       
+
+        <hr class="my-5">
+
+        <!--Section: History-->
+        <section id="History">
+
+
+          <!-- Heading -->
+          <h2 class="mb-5 font-weight-bold text-center">History</h2>
+        
+          <!--Grid row-->
+          <div class="row">
+      
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+            <img class="card-img-top" src="static\img\history1.png" alt="Card image cap">
+            
+      
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+      
+            <img class="card-img-top" src="static\img\history2.png" alt="Card image cap">
+      
+          </div>
+          <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+      
+        </section>
+        <!--Section: History-->
+
+        <hr class="my-5">
+
+        <!--Section: Recruiters-->
+        <section id="Recruiters">
+
+          <!-- Heading -->
+          <h2 class="mb-5 font-weight-bold text-center">Our Recruiters</h2>
+        
+          <!--Grid row-->
+          <div class="row">
+      
+          <!--Grid column-->
+          <div class="col-lg-5 col-md-12">
+      
+      
+      
+          </div>
+          <!--Grid column-->
+      
+          <!--Grid column-->
+          <div class="col-lg-7 col-md-12">
+      
+      
+      
+          </div>
+          <!--Grid column-->
+      
+          </div>
+          <!--Grid row-->
+      
+
+        </section>
+        <!--Section: Recruiters-->
+
+        <hr class="my-5">
+
+        <!--Section: Contact-->
+        <section id="contact">
+
+            <!-- Heading -->
+            <h2 class="mb-5 font-weight-bold text-center">Contact us</h2>
+        
+            <!--Grid row-->
+            <div class="row">
+        
+            <!--Grid column-->
+            <div class="col-lg-5 col-md-12">
+        
+        
+        
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-7 col-md-12">
+        
+        
+        
+            </div>
+            <!--Grid column-->
+        
+            </div>
+            <!--Grid row-->
+        
+        </section>
+        <!--Section: Contact-->
+
+    </div>
+</main>
+<!--Main layout-->
+  </main>
+  <!--Main layout-->
+  
+  <!--Footer-->
+  <footer>
+  
+  </footer>
+  <!--Footer-->
+
+  <!-- Start your project here-->
+
+   
+
+  <!-- /Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="/static/js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="/static/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="/static/js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="/static/js/mdb.min.js"></script>
+</body>
+
+</html>
